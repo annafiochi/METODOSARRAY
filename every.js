@@ -6,3 +6,8 @@ let valorestavel = (valoratual) => valoratual< 50;
 let arraynumbers = [1, 28, 37, 10, 14,23];
 // esperado que ele diga se e true or false
 console.log(arraynumbers.every(valorestavel));
+
+let valores = (valoratual01) => valoratual01 <20;
+let arraynumeros = [10, 12, 40, 22, 67];
+//nesse caso esperado que ele de falso pois tem numeros dentro do colchetes que estão certos
+console.log(arraynumeros.every(valores));
