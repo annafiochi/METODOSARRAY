@@ -12,7 +12,7 @@ console.log(resultado);
 
 //nesse caso eu quero que ele filtre qual dos itens começa com a letra B
 let paises = ["frança", "bolivia", "senegal", "brasil"];
-//agora vamos utilizar o fuction retornapaises que vai ler o primeiro letra de todas as palavras em busca de letra que escolhemos
+//agora vamos utilizar o fuction retornapaises que vai ler a primeiro letra de todas as palavras em busca da letra que escolhemos
 //dentro do fuction eu faço a condiçao e uso o "charAt" que vai por cada letra em busca do indice de letra que escolhemos
 function retornapaises(valor) {
  // nesse caso como quero que seja a primeira letra nosso indice e '0'  
