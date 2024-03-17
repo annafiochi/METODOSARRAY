@@ -1,0 +1,10 @@
+//ele transforma um nao array em uma array
+//como se fosse separar as letras nesse caso o 'morango'
+let fruta = 'morango'
+console.log (Array.from(fruta));
+//esperado que ele "separe a string morango", que no caso e um array
+
+let objeto = 'oculos'
+console.log (Array.from(objeto));
+//esperado que ele separe a string "oculos", transformando em um array
+
